@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Mira & Putra</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #050b18;
+            margin: 0;
+            padding: 0;
+        }
+        .font-serif-custom {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Custom scrollbar khusus untuk frame mobile */
+        .mobile-frame::-webkit-scrollbar {
+            width: 4px;
+        }
+        .mobile-frame::-webkit-scrollbar-thumb {
+            background: #1e3a8a;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+
+    <!-- Container Utama Tampilan Mobile (Frame HP) -->
+    <div class="w-full max-w-[430px] min-h-screen bg-[#0e3154] text-slate-100 shadow-2xl sm:rounded-[35px] overflow-y-auto relative mobile-frame border-0 sm:border-8 sm:border-slate-900 my-auto">
+
+        <!-- HERO SECTION -->
+        <div class="relative w-full h-[650px] flex flex-col justify-end text-center pb-14 px-6 overflow-hidden">
+            <!-- Background Image Placeholder (Bisa diganti URL gambar asli) -->
+            <div class="absolute inset-0 bg-cover bg-center opacity-50 mix-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80');"></div>
+            <!-- Gradasi Overlay Bawah -->
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0e3154] via-[#0e3154]/50 to-transparent"></div>
+            
+            <div class="relative z-10">
+                <p class="text-xs tracking-[0.3em] uppercase text-sky-200 mb-3 font-semibold">Undangan Pernikahan</p>
+                <h1 class="font-serif-custom text-4xl sm:text-5xl font-black tracking-wide text-white mb-3">Mira & Putra</h1>
+                <p class="text-xs font-bold uppercase tracking-[0.2em] text-sky-100 mt-2">Sabtu, 26 September 2026</p>
+            </div>
+        </div>
+
+        <!-- DIVIDER ORNAMEN Garis Putih -->
+        <div class="w-full px-8 py-3 flex items-center justify-center gap-3 bg-[#0e3154]">
+            <div class="h-[1px] w-full bg-white/40"></div>
+            <div class="w-2 h-2 bg-white rounded-full"></div>
+            <div class="h-[1px] w-full bg-white/40"></div>
+        </div>
+
+        <!-- AYAT / KUTIPAN -->
+        <div class="px-6 py-8 text-center bg-[#0e3154]">
+            <p class="font-serif-custom italic text-xs sm:text-sm text-sky-100 leading-relaxed mb-6">
+                "Dan Di Antara Tanda-tanda Kekuasaan-nya Ialah Dia Menciptakan Untukmu Isteri-isteri Dari Jenismu Sendiri, Supaya Kamu Merasa Tenang Dan Tentram Kepadanya, Dan Dijadikan-nya Diantaramu Rasa Kasih Dan Sayang. Sesungguhnya Pada Yang Demikian Itu Benar-benar Terdapat Tanda-tanda Bagi Kaum Yang Berfikir."
+            </p>
+            <p class="text-xs font-bold tracking-widest text-sky-300 uppercase">Ar Rum: 21</p>
+        </div>
+
+        <!-- SALAM PEMBUKA -->
+        <div class="px-6 py-6 text-center bg-[#0e3154]">
+            <p class="font-serif-custom text-lg text-sky-200 mb-2">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+            <p class="text-xs text-sky-100/90 leading-relaxed">Kami Mohon Do'a & Restunya Atas Pernikahan Kami</p>
+        </div>
+
+        <!-- MEMPELAI WANITA -->
+        <div class="px-6 py-6 text-center bg-[#0e3154]">
+            <div class="w-52 h-68 mx-auto rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 mb-5 bg-slate-800">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Almira Alvinia D.P" class="w-full h-full object-cover">
+            </div>
+            <h2 class="font-serif-custom text-3xl font-black text-white mb-2">Almira Alvinia D.p</h2>
+            <p class="text-xs text-sky-200 max-w-[280px] mx-auto leading-relaxed">
+                Putri Dari Bapak Dwi Piranggondani Santoso & Ibu Nunuk Nurdianti
+            </p>
+        </div>
+
+        <!-- SIMBOL & -->
+        <div class="py-2 text-center bg-[#0e3154]">
+            <span class="font-serif-custom text-5xl text-white font-bold">&</span>
+        </div>
+
+        <!-- MEMPELAI PRIA -->
+        <div class="px-6 py-6 text-center bg-[#0e3154]">
+            <div class="w-52 h-68 mx-auto rounded-2xl overflow-hidden shadow-xl border-2 border-white/20 mb-5 bg-slate-800">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Dian Buana Putra" class="w-full h-full object-cover">
+            </div>
+            <h2 class="font-serif-custom text-3xl font-black text-white mb-2">Dian Buana Putra</h2>
+            <p class="text-xs text-sky-200 max-w-[280px] mx-auto leading-relaxed">
+                Putra Dari Bapak Pratikto & Almh. Ibu Sunarwin
+            </p>
+        </div>
+
+        <!-- BAGIAN ACARA (Background solid menyatu) -->
+        <div class="px-6 py-12 bg-[#0a2540] mt-6 rounded-t-[40px] border-t border-white/10 shadow-inner">
+            <div class="text-center mb-10">
+                <h2 class="font-serif-custom text-3xl font-black text-white mb-2">Acara</h2>
+                <p class="text-xs text-sky-200">Kami Bermaksud Untuk Mengundang Saudara/(i) Dalam Acara Pernikahan Kami Pada:</p>
+            </div>
+
+            <!-- Card Akad Nikah -->
+            <div class="bg-white text-slate-900 rounded-2xl p-6 shadow-2xl mb-8 text-center relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-white px-5 py-1.5 rounded-xl border-2 border-[#0e3154] shadow-sm">
+                    <h3 class="font-serif-custom text-lg font-black text-[#0e3154]">Akad Nikah</h3>
+                </div>
+                
+                <div class="mt-4">
+                    <p class="text-xs font-bold text-sky-900 mb-1">Sabtu, 26 September 2026</p>
+                    <p class="text-xs font-semibold text-slate-600 mb-4">07.00 WIB s/d 08.00 WIB</p>
+                    
+                    <p class="text-sm font-bold text-[#0e3154] mb-1">Balai Desa Kelurahan Burengan</p>
+                    <p class="text-xs text-slate-600 leading-relaxed mb-5 max-w-[260px] mx-auto">
+                        Jl. Letjend Sutoyo No.4, Bangsal, Kec. Pesantren, Kota Kediri
+                    </p>
+                    
+                    <!-- QR Code / Maps Placeholder -->
+                    <div class="w-28 h-28 mx-auto bg-slate-50 p-2 rounded-xl border border-slate-200 flex items-center justify-center shadow-inner">
+                        <svg class="w-full h-full text-slate-800" fill="currentColor" viewBox="0 0 24 24"><path d="M2 2h8v8H2V2m2 2v4h4V4H4m10-2h8v8h-8V2m2 2v4h4V4h-4M2 12h8v8H2v-8m2 2v4h4v-4H4m12 2h2v2h-2v-2m4 0h2v2h-2v-2m-4 4h2v2h-2v-2m4 0h2v2h-2v-2m-2-6h2v2h-2v-2m0 4h2v2h-2v-2z"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Resepsi -->
+            <div class="bg-white text-slate-900 rounded-2xl p-6 shadow-2xl text-center relative">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-white px-5 py-1.5 rounded-xl border-2 border-[#0e3154] shadow-sm">
+                    <h3 class="font-serif-custom text-lg font-black text-[#0e3154]">Resepsi</h3>
+                </div>
+                
+                <div class="mt-4">
+                    <p class="text-xs font-bold text-sky-900 mb-1">Sabtu, 26 September 2026</p>
+                    <p class="text-xs font-semibold text-slate-600 mb-4">11.00 WIB s/d 13.00 WIB</p>
+                    
+                    <p class="text-sm font-bold text-[#0e3154] mb-1">Balai Desa Kelurahan Burengan</p>
+                    <p class="text-xs text-slate-600 leading-relaxed mb-5 max-w-[260px] mx-auto">
+                        Jl. Letjend Sutoyo No.4, Bangsal, Kec. Pesantren, Kota Kediri
+                    </p>
+                    
+                    <!-- QR Code / Maps Placeholder -->
+                    <div class="w-28 h-28 mx-auto bg-slate-50 p-2 rounded-xl border border-slate-200 flex items-center justify-center shadow-inner">
+                        <svg class="w-full h-full text-slate-800" fill="currentColor" viewBox="0 0 24 24"><path d="M2 2h8v8H2V2m2 2v4h4V4H4m10-2h8v8h-8V2m2 2v4h4V4h-4M2 12h8v8H2v-8m2 2v4h4v-4H4m12 2h2v2h-2v-2m4 0h2v2h-2v-2m-4 4h2v2h-2v-2m4 0h2v2h-2v-2m-2-6h2v2h-2v-2m0 4h2v2h-2v-2z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="bg-[#071b30] py-8 text-center text-sky-200/60 text-[11px]">
+            <p>Terima Kasih atas Kehadiran & Doa Restu Anda</p>
+            <p class="mt-1 text-white font-bold tracking-wider">Mira & Putra</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
